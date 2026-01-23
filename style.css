@@ -1,0 +1,501 @@
+* {
+    user-select: none;
+    cursor: default;
+}
+body {
+    background-image: linear-gradient(to right bottom, pink, pink, red);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: pink;
+    margin: 0;
+
+}
+
+@font-face {
+    font-family: permamark;
+    src: url(PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+    font-family: organic;
+    src: url(organical-personal-use.bold-italic.ttf);
+}
+
+@font-face {
+    font-family: cheri;
+    src: url(CHERI___.TTF);
+}
+
+@font-face {
+    font-family: cherl;
+    src: url(CHERL___.TTF);
+}
+
+.div1 {
+    background-color: transparent;
+    margin-top: 200px;
+    height: 500px;
+    width: 200px;
+}
+
+.mailtxt1 {
+    color: white;
+    text-shadow: 0px 0px 10px purple, 0px 0px 20px purple, 0px 0px 20px purple;
+    font-family: permamark;
+    animation: horshaking 0.5s infinite;
+}
+
+@keyframes horshaking {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(5px); }
+    50% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+   }
+
+.mail1 {
+    background-image: url(pink-3d-mail-icon-on-transparent-background-perfect-for-email-communication-and-messaging-related-concepts-png.png);
+    background-color: transparent;
+    background-size: 240px 190px;
+    background-repeat: no-repeat;
+    background-position: -68px -47px;
+    border: none;
+    height: 120px;
+    width: 100px;
+    filter: drop-shadow(0px 0px 5px purple);
+    animation: shake 1s infinite;
+}
+
+@keyframes shake {
+  
+        0% {
+            transform: rotate(0deg); 
+            filter: drop-shadow(0px 0px 5px red);
+        }
+        25% 
+        {
+            transform: rotate(20deg);
+            filter: drop-shadow(0px 0px 5px purple);
+            scale: 1.1;
+        }
+        50% 
+        {
+            transform: rotate(0deg);
+            filter: drop-shadow(0px 0px 5px red);
+            scale: 1;
+        }
+        75% 
+        {
+            transform: rotate(-20deg);
+            filter: drop-shadow(0px 0px 5px purple);
+            scale: 1.1;
+        }
+        100%
+        {
+            transform: rotate(0deg);
+            filter: drop-shadow(0px 0px 5px red);
+        }
+}
+
+.kissingcat {
+    height: 300px;
+    width: 200px;
+    filter: drop-shadow(0px 0px 10px gray);
+    box-shadow: none;
+}
+
+.div2 {
+    background-color: rgb(179, 69, 63);
+    background-size: 80vh 100vh;
+    background-repeat: no-repeat;
+    background-position: -150px 0px;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    margin-top: 0px;
+}
+
+@keyframes bg_kiss {
+    0% {
+        background-image: none;
+    }
+    
+    1% {
+        background-image: url(besito-catlove.gif);
+    }
+
+    100% {
+        background-image: url(besito-catlove.gif);
+    }
+}
+
+@keyframes ffade {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes sfade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.accgif {
+    font-family: permamark;
+    font-size: 23px;
+    margin-top: 250px;
+}
+
+.kissbutt {
+    width: 150px;
+    height: 100px;
+    font-size: 60px;
+    margin-top: 50px;
+    background-color: rgba(128, 0, 128, 0.5);
+    border: solid 3px purple;
+    animation: hshake 0.7s infinite;
+}
+
+@keyframes hshake {
+    0% {
+        transform: translateX(0px);
+    }
+
+    10% {
+        transform: translateX(0px);
+    }
+
+    20% {
+        transform: translateX(-5px);
+    }
+
+    30% {
+        transform: translateX(5px);
+    }
+
+    40% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    60% {
+        transform: translateX(-5px);
+    }
+
+    70% {
+        transform: translateX(5px);
+    }
+
+    80% {
+        transform: translateX(-5px);
+    }
+
+    90% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.div3 {
+    background-color: transparent;
+    height: 500px;
+    width: 350px;
+    margin-top: 250px;
+    display: none;
+}
+
+.thnkfrk {
+    color: purple;
+    text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px purple, 0px 0px 10px purple;
+    font-family: organic;
+    font-size: 25px;
+}
+
+.nextbutt {
+    height: 50px;
+    width: 200px;
+    background-color: rgba(128, 0, 128, 0.5);
+    border: solid 3px purple;
+    color: purple;
+    text-shadow: 0px 0px 20px black, 0px 0px 20px black, 0px 0px 20px black, 0px 0px 20px black;
+    box-shadow: 0px 0px 10px purple, 0px 0px 10px purple, 0px 0px 10px purple, 0px 0px 10px purple;
+    margin-top: 30px;
+    font-family: permamark;
+}
+
+.div4 {
+    background-color: white;
+    background-image: url(Love1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+.memtext {
+    color: purple;
+    font-family: permamark;
+    margin-top: 200px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.memtext::after {
+    content: "Wanna see some memoriessss ????";
+    animation: memani 5s ease;
+}
+
+@keyframes memani {
+    0% {
+        content: "W";
+    }
+
+    2% {
+        content: "Wa";
+    }
+
+    3% {
+        content: "Wan";
+    }
+
+    4% {
+        content: "Wann";
+    }
+
+    5% {
+        content: "Wanna";
+    }
+
+    6% {
+        content: "Wanna ";
+    }
+
+    7% {
+        content: "Wanna s";
+    }
+
+    8% {
+        content: "Wanna see";
+    }
+    
+    9% {
+        content: "Wanna see ";
+    }
+
+    10% {
+        content: "Wanna see ";
+    }
+
+    11% {
+        content: "Wanna see s";
+    }
+
+    12% {
+        content: "Wanna see so";
+    }
+
+    13% {
+        content: "Wanna see som";
+    }
+
+    14% {
+        content: "Wanna see some";
+    }
+
+    15% {
+        content: "Wanna see some ";
+    }
+
+    16% {
+        content: "Wanna see some m";
+    }
+
+    17% {
+        content: "Wanna see some me";
+    }
+
+    18% {
+        content: "Wanna see some mem";
+    }
+
+    19% {
+        content: "Wanna see some memo";
+    }
+
+    20% {
+        content: "Wanna see some memor";
+    }
+
+    21% {
+        content: "Wanna see some memori";
+    }
+
+    22% {
+        content: "Wanna see some memorie";
+    }
+
+    23% {
+        content: "Wanna see some memories";
+    }
+
+    24% {
+        content: "Wanna see some memoriess";
+    }
+
+    25% {
+        content: "Wanna see some memoriesss";
+    }
+
+    26% {
+        content: "Wanna see some memoriessss";
+    }
+
+    27% {
+        content: "Wanna see some memoriessss ";
+    }
+
+    30% {
+        content: "Wanna see some memoriessss ?";
+    }
+
+    33% {
+        content: "Wanna see some memoriessss ??";
+    }
+
+    36% {
+        content: "Wanna see some memoriessss ???";
+    }
+
+    39% {
+        content: "Wanna see some memoriessss ????";
+    }
+}
+
+.memtextreq {
+    color: purple;
+    font-family: permamark;
+    margin-top: 200px;
+    text-shadow: 0px 0px 10px black;
+    display: none;
+}
+
+.membuttarea {
+    background-color: transparent;
+    margin-top: 100px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.membuttn {
+    background-color: rgba(255, 0, 0, 0.3);
+    border: solid 2px red;
+    padding: 20px;
+    font-family: permamark;
+    font-size: 13px;
+    font-weight: lighter;
+    box-shadow: 0px 0px 10px red;
+}
+
+.membutty {
+    background-color: rgba(0, 128, 0, 0.3);
+    border: solid 2px green;
+    padding: 20px;
+    font-family: permamark;
+    font-size: 13px;
+    font-weight: lighter;
+    box-shadow: 0px 0px 30px green;
+}
+
+.selnum {
+    color: purple;
+    font-family: permamark;
+    text-shadow: 0px 0px 10px black;
+    font-size: 20px;
+}
+
+.selectmem {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: none;
+    transition: all 0.05s ease;
+}
+
+.selectmem:active {
+    opacity: 1;
+}
+
+.selnumbutt {
+    background-color: black;
+    font-family: cherl;
+    font-size: 20px;
+    color: cyan;
+    text-shadow: 0px 0px 10px cyan;
+    height: 60px;
+    width: 60px;
+    outline: none;
+    border: solid 2px cyan;
+    margin: 1px;
+    transition: all 0.05s ease;
+    box-shadow: 0px 0px 7px cyan;
+}
+
+.selnumbuttnex {
+    background-color: black;
+    color: skyblue;
+    text-shadow: 0px 0px 10px cyan;
+    height: 40px;
+    width: 184px;
+    outline: none;
+    border: solid 2px skyblue;
+    font-family: cherl;
+    transition: all 0.05s ease;
+    box-shadow: 0px 0px 7px cyan;
+}
+
+.selnumbutt:active , .selnumbuttnex:active {
+    scale: 1.1;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.selnumarea2 {
+    display: none;
+}
+
+.sstextarea {
+    background-color: transparent;
+    height: 100px;
+    display: none;
+}
+
+.sstext {
+    color: white;
+    font-family: permamark;
+    font-size: 25px;
+    text-shadow: 0px 0px 10px cyan;
+}
